@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotService", "OcelotService\OcelotService.csproj", "{5DB21764-28D3-4479-8149-356E8A137F34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantsAPI", "RestaurantsAPI\RestaurantsAPI.csproj", "{F44369C1-00BF-49A2-8F2E-A946082A2CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagementAPI", "SchoolManagementAPI\SchoolManagementAPI.csproj", "{36E8B3C8-709F-4F53-A45E-E7881097834A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5DB21764-28D3-4479-8149-356E8A137F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB21764-28D3-4479-8149-356E8A137F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB21764-28D3-4479-8149-356E8A137F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44369C1-00BF-49A2-8F2E-A946082A2CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44369C1-00BF-49A2-8F2E-A946082A2CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44369C1-00BF-49A2-8F2E-A946082A2CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44369C1-00BF-49A2-8F2E-A946082A2CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E8B3C8-709F-4F53-A45E-E7881097834A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E8B3C8-709F-4F53-A45E-E7881097834A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E8B3C8-709F-4F53-A45E-E7881097834A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E8B3C8-709F-4F53-A45E-E7881097834A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
