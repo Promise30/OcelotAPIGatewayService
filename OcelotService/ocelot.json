@@ -1,0 +1,32 @@
+{
+  "Routes": [
+    // Configuration for the School management API project
+    {
+      "DownstreamPathTemplate": "/api/School/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7246
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/SchoolService/{everything}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    // Configuration for the Restaurant API project
+    {
+      "DownstreamPathTemplate": "/api/Restaurants/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7283
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/RestaurantsService/{everything}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    }
+
+  ]
+
+}
